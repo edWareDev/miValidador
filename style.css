@@ -1,0 +1,99 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+main {
+    background-color: #12486B;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    max-width: 500px;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header input {
+    height: 3.6rem;
+    text-align: center;
+    outline: none;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.header button {
+    height: 3.6rem;
+    padding: 0 2rem;
+    background-color: #419197;
+    color: white;
+    font-weight: 600;
+    border: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: .5rem;
+    font-size: 1.6rem;
+    color: orange;
+    font-weight: 800;
+    text-align: center;
+}
+
+.table div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+.table div p {
+    width: 50%;
+    text-align: right;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #78D6C6;
+
+}
+
+.table div span {
+    width: 50%;
+    text-align: left;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #F5FCCD;
+}
